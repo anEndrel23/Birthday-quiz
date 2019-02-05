@@ -43,25 +43,22 @@ day = input("And the day? ")
 
 month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-month_names.index['months'] = month_names.index['months'] + 1
+mums = month_names.index(month)
 
-winter == month_names[0,1] and month_names[11]
+mums = mums + 1
 
-
-
-
-if month == october and day == 31:
+if month == 'October' and day == 31:
     print("You were born on Halloween!")
-elif month_names.index['month'] == todaymonth and day == todaydate:
+elif mums == todaymonth and day == todaydate:
     print("Happy birthday!")
 else: 
-    if month_names.index['month'] == 1 or month_names.index['month'] == 2 or month_names.index['month'] == 12:
+    if mums == 1 or mums == 2 or mums == 12:
         season = 'winter'
-    if month_names.index['month'] >= 3 and month_names.index['month'] <= 5:
+    if mums >= 3 and mums <= 5:
         season = 'spring'
-    if month_names.index['month'] >= 6 and month_names.index['month'] <= 8:
+    if mums >= 6 and mums <= 8:
         season = 'summer'
-    if month_names.index['month'] >= 9 and month_names.index['month'] <= 11:
+    if mums >= 9 and mums <= 11:
         season = 'fall'
     if year < 1979:
         time = 'stone age'
@@ -72,4 +69,3 @@ else:
     if year >= 2000:
         time = 'two thousands'
     print(""+name+", you are a "+season+" baby of the"+time+".")
-
