@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Andrew
 Credit: Matt
 Assignment
 
@@ -41,29 +41,35 @@ month = input("Hi "+name+", what was the name of the month you were born in? ")
 year = input("And what year were you born in, "+name+"? ")
 day = input("And the day? ")
 
-monthnames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-monthnames.index['months'] = monthnames.index['months'] + 1
+month_names.index['months'] = month_names.index['months'] + 1
 
-winter == monthnames[0,1] and monthnames[11]
+winter == month_names[0,1] and month_names[11]
 
 
 
 
 if month == october and day == 31:
     print("You were born on Halloween!")
-elif monthnames.index['month'] == todaymonth and day == todaydate:
-        print("Happy birthday!")
-elif 
-    if monthnames.index['month'] == 1 or monthnames.index['month'] == 2 or monthnames.index['month'] == 12:
+elif month_names.index['month'] == todaymonth and day == todaydate:
+    print("Happy birthday!")
+else: 
+    if month_names.index['month'] == 1 or month_names.index['month'] == 2 or month_names.index['month'] == 12:
         season = 'winter'
-    if monthnames.index['month'] >= 3 and monthnames.index['month'] <= 5
+    if month_names.index['month'] >= 3 and month_names.index['month'] <= 5:
         season = 'spring'
-    if monthnames.index['month'] >= 6 and monthnames.index['month'] <= 8
+    if month_names.index['month'] >= 6 and month_names.index['month'] <= 8:
         season = 'summer'
-    if monthnames.index['month'] >= 9 and monthnames.index['month'] <= 11
+    if month_names.index['month'] >= 9 and month_names.index['month'] <= 11:
         season = 'fall'
     if year < 1979:
         time = 'stone age'
-        
+    if year >= 1980 and year < 1990:
+        time = 'eighties'
+    if year >= 1990 and year < 2000:
+        time = 'nineties'
+    if year >= 2000:
+        time = 'two thousands'
+    print(""+name+", you are a "+season+" baby of the"+time+".")
 
