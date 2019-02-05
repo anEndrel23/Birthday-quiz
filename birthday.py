@@ -31,9 +31,39 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
 name = input("Hello, what is your name? ")
 month = input("Hi "+name+", what was the name of the month you were born in? ")
 year = input("And what year were you born in, "+name+"? ")
 day = input("And the day? ")
 
-print("dog food")
+monthnames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+monthnames.index['months'] = monthnames.index['months'] + 1
+
+winter == monthnames[0,1] and monthnames[11]
+
+
+
+
+if month == october and day == 31:
+    print("You were born on Halloween!")
+elif monthnames.index['month'] == todaymonth and day == todaydate:
+        print("Happy birthday!")
+elif 
+    if monthnames.index['month'] == 1 or monthnames.index['month'] == 2 or monthnames.index['month'] == 12:
+        season = 'winter'
+    if monthnames.index['month'] >= 3 and monthnames.index['month'] <= 5
+        season = 'spring'
+    if monthnames.index['month'] >= 6 and monthnames.index['month'] <= 8
+        season = 'summer'
+    if monthnames.index['month'] >= 9 and monthnames.index['month'] <= 11
+        season = 'fall'
+    if year < 1979:
+        time = 'stone age'
+        
+
