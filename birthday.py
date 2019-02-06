@@ -38,8 +38,8 @@ todaydate = datetime.today().day
 
 name = input("Hello, what is your name? ")
 month = input("Hi "+name+", what was the name of the month you were born in? ")
-year = input("And what year were you born in, "+name+"? ")
-day = input("And the day? ")
+year = int(input("And what year were you born in, "+name+"? "))
+day = int(input("And the day? "))
 
 month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -68,4 +68,4 @@ else:
         time = 'nineties'
     if year >= 2000:
         time = 'two thousands'
-    print(""+name+", you are a "+season+" baby of the"+time+".")
+    print(""+name+", you are a "+season+" baby of the "+time+".")
