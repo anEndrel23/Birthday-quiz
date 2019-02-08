@@ -2,7 +2,7 @@
 birthday.py
 Author: Andrew
 Credit: Matt
-Assignment
+Assignment: Birthday Quiz
 
 Your program will ask the user the following questions, in this order:
 
