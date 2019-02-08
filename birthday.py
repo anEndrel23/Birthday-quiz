@@ -61,7 +61,7 @@ else:
     if mums >= 9 and mums <= 11:
         season = 'fall'
     if year < 1979:
-        time = 'stone age'
+        time = 'Stone Age'
     if year >= 1980 and year < 1990:
         time = 'eighties'
     if year >= 1990 and year < 2000:
@@ -69,3 +69,5 @@ else:
     if year >= 2000:
         time = 'two thousands'
     print(name+", you are a "+season+" baby of the "+time+".")
+    
+    
