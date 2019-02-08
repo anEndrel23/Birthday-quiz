@@ -68,4 +68,4 @@ else:
         time = 'nineties'
     if year >= 2000:
         time = 'two thousands'
-    print(""+name+", you are a "+season+" baby of the "+time+".")
+    print(name+", you are a "+season+" baby of the "+time+".")
